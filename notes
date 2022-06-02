@@ -1,0 +1,4 @@
+mkcert -key-file my-wordpress-blog.local.key -cert-file my-wordpress-blog.local.crt my-wordpress-blog.local
+
+
+docker-compose -f docker-compose.yml up
